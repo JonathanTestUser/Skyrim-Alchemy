@@ -40,7 +40,11 @@ window.onload = function(){
     {
 		if(rawFile.readyState === rawFile.DONE && (rawFile.status === 200 || rawFile.status == 0))
 		{
-			alert(rawFile.responseText);
+			var rawData=rawFile.responseText;
+			var firstSplit = rawData.split("\n");
+			var firstString = firstSplit[0];
+			var secondSplit = firstString.split(",");
+			alert (secondSplit[0]);
 		}
     }
     rawFile.send(null);
