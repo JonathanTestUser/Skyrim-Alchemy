@@ -1,2 +1,0 @@
-'Abecean Longfin', 'Weakness to Frost', 1.0, 2.0, 'Fortify Sneak', 3.0, 4.0, 'Weakness to Poison', 5.0, 6.0, 'Fortify Restoration', 7.0, 8.0
-'Ancestor Moth Wing', 'Damage Stamina', 1.0, 1.0, 'Fortify Conjuration', 1.0, 1.0, 'Damage Magicka Regen', 1.0, 1.0, 'Fortify Enchanting', 1.0, 1.0
