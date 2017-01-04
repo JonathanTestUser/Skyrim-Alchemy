@@ -1,10 +1,7 @@
-var myHeading = document.querySelector('h1');
 
-var herbData = ['Abecean Longfin', 	'Weakness to Frost', 1.0, 1.0, 
-									'Fortify Sneak', 1.0, 1.0, 
-									'Weakness to Poison', 1.0, 1.0, 
-									'Fortify Restoration', 1.0, 1.0];
-									
+//Inserts herb values into an array.
+var database=[];
+					
 function Herb(name, effect1, val1, mag1, effect2, val2, mag2, effect3, val3, mag3, effect4, val4, mag4){
 	this.name = name;
 	this.effect1 = effect1;
@@ -21,24 +18,51 @@ function Herb(name, effect1, val1, mag1, effect2, val2, mag2, effect3, val3, mag
 	this.mag4 = mag4;
 }
 
+function readTextFile(){
+
+}
+
+function readTextFile2(file){
+
+}
+	
+	
+window.onload = function(){
+	var herb1 = new Herb ('Abecean Longfin', 
+						  'Weakness to Frost', 1.0, 2.0,
+						  'Fortify Sneak', 3.0, 4.0, 
+						  'Weakness to Poison', 5.0, 6.0,
+						  'Fortify Restoration', 7.0, 8.0);
+
+	var herb2 = new Herb ('Ancestor Moth Wing', 
+						  'Damage Stamina', 1.0, 1.0,
+						  'Fortify Conjuration', 1.0, 1.0, 
+						  'Damage Magicka Regen', 1.0, 1.0,
+						  'Fortify Enchanting', 1.0, 1.0);
+	database= database.concat([herb1],[herb2]);
+	//alert (database[1].name);
+	var file = '/Data.txt';
+    var rawFile = new XMLHttpRequest();
+	rawfile.responseType = 'text';
+    rawFile.open('GET', file, true);
+    rawFile.onreadystatechange = function ()
+    {
+		if(rawFile.readyState === rawFile.DONE && (rawFile.status === 200 || rawFile.status == 0))
+		{
+			alert(rawFile.responseText);
+		}
+    }
+    rawFile.send(null);
+}
+	
+
+
 function searchHerbs() {
 	var herbName = document.getElementById("herbName").value;
-	
-	var herbNameField = document.getElementById('herbNameField');
-	var effect1field = document.getElementById('effect1field');
-	var effect2field = document.getElementById('effect2field');
-	var effect3field = document.getElementById('effect3field');
-	var effect4field = document.getElementById('effect4field');
-	var val1field= document.getElementById('val1field');
-	var val2field= document.getElementById('val2field');
-	var val3field= document.getElementById('val3field');
-	var val4field= document.getElementById('val4field');
-	var mag1field= document.getElementById('mag1field');
-	var mag2field= document.getElementById('mag2field');
-	var mag3field= document.getElementById('mag3field');
-	var mag4field= document.getElementById('mag4field');
-	
 	var divField = document.getElementById('dataReturn');
+	while(divField.firstChild){
+    divField.removeChild(divField.firstChild);
+  }
 	
 	var herb = new Herb;
 	
@@ -109,16 +133,6 @@ function searchHerbs() {
 	divField.appendChild(table);
 }
 	
-var herb1 = new Herb ('Abecean Longfin', 
-					  'Weakness to Frost', 1.0, 2.0,
-					  'Fortify Sneak', 3.0, 4.0, 
-					  'Weakness to Poison', 5.0, 6.0,
-					  'Fortify Restoration', 7.0, 8.0);
 
-var herb2 = new Herb ('Ancestor Moth Wing', 
-					  'Damage Stamina', 1.0, 1.0,
-					  'Fortify Conjuration', 1.0, 1.0, 
-					  'Damage Magicka Regen', 1.0, 1.0,
-					  'Fortify Enchanting', 1.0, 1.0);
 					  
 //myHeading.textContent = herb1.name;
