@@ -18,15 +18,6 @@ function Herb(name, effect1, val1, mag1, effect2, val2, mag2, effect3, val3, mag
 	this.mag4 = mag4;
 }
 
-function readTextFile(){
-
-}
-
-function readTextFile2(file){
-
-}
-	
-	
 window.onload = function(){
 	var herb1 = new Herb ('Abecean Longfin', 
 						  'Weakness to Frost', 1.0, 2.0,
