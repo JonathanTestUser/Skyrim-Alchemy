@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Skyrim Herb Database</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Skyrim Herb Database</h1>
+	<form action=javascript:searchHerbs()>
+	  Herb: <input type="text" id = "herbName" name="herbName"><br>
+	  Effect: <input type="text" id = "effectName" name="effectName"><br>
+	  <input type="submit" value="Submit">
+	</form>
+	<div id = "dataReturn">
+	</div>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
