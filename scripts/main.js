@@ -41,7 +41,7 @@ window.onload = function(){
 						  'Fortify Enchanting', 1.0, 1.0);
 	database= database.concat([herb1],[herb2]);
 	//alert (database[1].name);
-	var file = '/Data.txt';
+	var file = 'data.txt';
     var rawFile = new XMLHttpRequest();
 	rawfile.responseType = 'text';
     rawFile.open('GET', file, true);
