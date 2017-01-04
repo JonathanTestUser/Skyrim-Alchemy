@@ -34,7 +34,7 @@ window.onload = function(){
 	//alert (database[1].name);
 	var file = 'data.txt';
     var rawFile = new XMLHttpRequest();
-	rawfile.responseType = 'text';
+	rawFile.responseType = 'text';
     rawFile.open('GET', file, true);
     rawFile.onreadystatechange = function ()
     {
