@@ -44,7 +44,8 @@ window.onload = function(){
 			var rawData = rawFile.responseText;
 			
 			//Split file into array by linebreaks, removing whitespace
-			var firstSplit = rawData.trim.split("\n");
+			rawData= rawData.trim;
+			var firstSplit = rawData.split("\n");
 			
 			//Get length of array
 			var max = firstSplit.length;
@@ -56,7 +57,8 @@ window.onload = function(){
 				var ingredientString = firstSplit[i];
 				
 				//split that string by commas, discarding whitespace
-				var secondSplit = ingredientString.trim.split(",");
+				ingredientString = ingredientString.trim;
+				var secondSplit = ingredientString.split(",");
 				
 				//check all fields are there...
 				if (secondSplit.length === 13){
