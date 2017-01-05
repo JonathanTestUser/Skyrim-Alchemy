@@ -82,7 +82,7 @@ function searchHerbs() {
 	herbString= herbString.trim();
 	
 	//convert into a regex string
-	var regExpHerb = new RegExp (herbName, i);
+	var regExpHerb = new RegExp (herbName, 'i');
 	
 	//Get the Div where data will be shown.
 	var divField = document.getElementById('dataReturn');
