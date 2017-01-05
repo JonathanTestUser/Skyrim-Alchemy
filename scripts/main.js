@@ -143,6 +143,7 @@ function searchValue(herbName) {
 			tr = table.insertRow();
 			td = tr.insertCell();
 			td.innerHTML =  database[i].effect3;
+
 			td.addEventListener('click', searchValue(database[i].effect3));
 			td = tr.insertCell();
 			td.innerHTML =  database[i].val3;
@@ -152,6 +153,7 @@ function searchValue(herbName) {
 			tr = table.insertRow();
 			td = tr.insertCell();
 			td.innerHTML =  database[i].effect4;
+
 			td.addEventListener('click', searchValue(database[i].effect4));
 			td = tr.insertCell();
 			td.innerHTML =  database[i].val4;
