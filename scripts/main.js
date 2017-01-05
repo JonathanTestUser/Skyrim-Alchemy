@@ -44,8 +44,8 @@ window.onload = function(){
 			var rawData = rawFile.responseText;
 			
 			//Split file into array by linebreaks, removing whitespace
-			rawData= rawData.trim;
 			var rawDataString = rawData.toString();
+			rawDataString = rawDataString.trim();
 			var firstSplit = rawDataString.split("\n");
 			
 			//Get length of array
@@ -81,7 +81,8 @@ function searchHerbs() {
 	console.log("1");
 	//get herbName from search box
 	var herbName = document.getElementById("herbName").value;
-	herbName= herbName.trim;
+	herbString= herbName.toString();
+	herbString= herbString.trim();
 	
 	//convert into a regex string
 	var regExpHerb = new RegExp (herbName, i);
