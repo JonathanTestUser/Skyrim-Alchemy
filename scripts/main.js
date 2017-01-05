@@ -55,10 +55,11 @@ window.onload = function(){
 			for (var i = 0; i < max; i++) { 
 			
 				//Get each ingredient as a string of values
-				var ingredientString = firstSplit[i].toString();
+				var ingredient = firstSplit[i];
 				
 				//split that string by commas, discarding whitespace
-				ingredientString = ingredientString.trim;
+				ingredient = ingredient.trim;
+				var ingredientString = ingredient.toString();
 				var secondSplit = ingredientString.split(",");
 				
 				//check all fields are there...
