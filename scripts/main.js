@@ -78,7 +78,6 @@ window.onload = function(){
 
 //Search functionality
 function searchHerbs() {
-	console.log("1");
 	//get herbName from search box
 	var herbName = document.getElementById("herbName").value;
 	herbString= herbName.toString();
@@ -86,20 +85,18 @@ function searchHerbs() {
 	
 	//convert into a regex string
 	var regExpHerb = new RegExp (herbName, i);
-	console.log(regExpHerb.toString());
+	//console.log(regExpHerb.toString());
 	
 	//Get the Div where data will be shown.
 	var divField = document.getElementById('dataReturn');
 	
 	//while there is a first child
-	console.log("2");
 	while(divField.firstChild){
 	//remove first child
     divField.removeChild(divField.firstChild);
 	}
 	
 	//create a table, insert a row of headers.
-	console.log("3");
 	var table = document.createElement("table");
 	var tr = table.insertRow();
 	var th = document.createElement('th');
@@ -120,10 +117,10 @@ function searchHerbs() {
 	th.innerHTML = "Mag";
 	tr.appendChild(th);
 	
-	console.log("4");
 	//loop through the database.
 	var databaseLength = database.length;
 	for (var i= 0; i < databaseLength; i++){
+		console.log("into loop")
 		if (regExpHerb.test(database[i].name) || regExpHerb.test(database[i].effect1) || regExpHerb.test(database[i].effect2) || regExpHerb.test(database[i].effect3) || regExpHerb.test(database[i].effect4)){
 			alert ("Pass")
 			tr = table.insertRow();
@@ -164,7 +161,6 @@ function searchHerbs() {
 		else alert("fail")
 	}
 	divField.appendChild(table);
-	console.log("5");
 }
 	
 
