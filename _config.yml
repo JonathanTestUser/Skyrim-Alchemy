@@ -5,13 +5,9 @@ simple_search: http://google.com/search
 markdown: kramdown
 paginate: 10
 kramdown:
-  extensions:
-    - autolink
-    - footnotes
-    - smart
 permalink: /:year/:month/:title.html
 relative_permalinks: false
-url: http://tigefa4u.github.io
+url: http://JonathanTestUser.github.io
 #url: http://localhost:2106
 #port: 2106
 #baseurl: /project-name
@@ -19,24 +15,24 @@ name: tigefa4u.Github
 timezone:    Aisa/Jakarta
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
-title : tigefa4u.Github
+title : JonathanTestUser.Github
 tagline: love Github repositories
-author :
-  name : sugeng tigefa
-  email : tigefa@gmail.com
-  tumblr: tigefa
-  flickr: tigefa
-  github : tigefa4u
-  repository: tigefa4u.github.io
-  gittip: tigefa
-  twitter : tigefa_team
-  facebook: tigefa.team
-  feedburner : tigefa4ugithub
-  linkedin: tigefadotinfo
-  googleplus: tigefa
-  pinterest: tigefa
-  bitbucket: tigefa4u
-  stackoverflow: tigefa
+author : JonathanTestUser
+  name :
+  email :
+  tumblr:
+  flickr:
+  github :
+  repository: JonathanTestUser.github.io
+  gittip:
+  twitter :
+  facebook:
+  feedburner :
+  linkedin:
+  googleplus:
+  pinterest:
+  bitbucket:
+  stackoverflow:
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -46,7 +42,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://tigefa4u.github.io
+production_url : http://JonathanTestUser.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -75,7 +71,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : http://tigefa4u.github.io
+  BASE_PATH : 
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -157,4 +153,4 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-exclude: ["node_modules", "tigefa.jquery.json", "deploy.cmd", "composer.json", "circle.yml", "README", "iron.json", "bower.json", "params.json", ".coveralls.yml", ".travis.yml", ".gitignore", ".gitattributes", ".gitmodules", "README.md", "LICENSE", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
+exclude: ["node_modules", "deploy.cmd", "composer.json", "circle.yml", "README", "iron.json", "bower.json", "params.json", ".coveralls.yml", ".travis.yml", ".gitignore", ".gitattributes", ".gitmodules", "README.md", "LICENSE", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
