@@ -12,7 +12,7 @@ url: http://JonathanTestUser.github.io
 #port: 2106
 #baseurl: /project-name
 name: JonathanTestUser.Github
-timezone:    Aisa/Jakarta
+timezone:
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 title : JonathanTestUser.Github
@@ -99,7 +99,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : tigefa
+      short_name : 
 #    livefyre :
 #      site_id : 123
 #    intensedebate :
@@ -153,4 +153,5 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-exclude: ["node_modules", "deploy.cmd", "composer.json", "circle.yml", "README", "iron.json", "bower.json", "params.json", ".coveralls.yml", ".travis.yml", ".gitignore", ".gitattributes", ".gitmodules", "README.md", "LICENSE", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
+exclude: ["node_modules", "deploy.cmd", "composer.json", "circle.yml", "README", "iron.json", "bower.json", "params.json", ".coveralls.yml", ".travis.yml", ".gi
+nore", ".gitattributes", ".gitmodules", "README.md", "LICENSE", "Rakefile", "CHANGELOG.md", "Gemfile", "Gemfile.lock"]
