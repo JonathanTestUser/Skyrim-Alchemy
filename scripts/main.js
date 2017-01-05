@@ -119,7 +119,7 @@ function searchHerbs() {
 	
 	//loop through the database.
 	var databaseLength = database.length;
-	console(databaseLength.toString());
+	console.log(databaseLength.toString());
 	for (var i= 0; i < databaseLength; i++){
 		console.log("into loop")
 		if (regExpHerb.test(database[i].name) || regExpHerb.test(database[i].effect1) || regExpHerb.test(database[i].effect2) || regExpHerb.test(database[i].effect3) || regExpHerb.test(database[i].effect4)){
