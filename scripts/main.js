@@ -58,7 +58,7 @@ window.onload = function(){
 				var ingredient = firstSplit[i];
 				
 				//split that string by commas, discarding whitespace
-				ingredient = ingredient.trim;
+				ingredient = ingredient.trim();
 				var ingredientString = ingredient.toString();
 				var secondSplit = ingredientString.split(",");
 				var arraylength = secondSplit.length;
