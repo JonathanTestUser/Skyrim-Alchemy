@@ -41,11 +41,12 @@ window.onload = function(){
 		if(rawFile.readyState === rawFile.DONE && (rawFile.status === 200 || rawFile.status == 0))
 		{
 			//Store response to raw Data.
-			var rawData = rawFile.responseText + '';
+			var rawData = rawFile.responseText;
 			
 			//Split file into array by linebreaks, removing whitespace
 			rawData= rawData.trim;
-			var firstSplit = rawData.split("\n");
+			var rawDataString = rawData.toString();
+			var firstSplit = rawDataString.split("\n");
 			
 			//Get length of array
 			var max = firstSplit.length;
