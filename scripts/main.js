@@ -74,10 +74,10 @@ window.onload = function(){
 }
 	
 
+
 //Search functionality
-function searchHerbs() {
-	//get herbName from search box
-	var herbName = document.getElementById("herbName").value;
+function searchValue(herbName) {
+
 	herbString= herbName.toString();
 	herbString= herbString.trim();
 	
@@ -122,8 +122,10 @@ function searchHerbs() {
 			td = tr.insertCell();
 			td.innerHTML =  database[i].name;
 			td.setAttribute('rowspan', '4');
+			td.addEventListener('click', searchValue(database[i].name));
 			td = tr.insertCell();
 			td.innerHTML =  database[i].effect1;
+			td.addEventListener('click', searchValue(database[i].effect1));
 			td = tr.insertCell();
 			td.innerHTML =  database[i].val1;
 			td = tr.insertCell();
@@ -132,6 +134,7 @@ function searchHerbs() {
 			tr = table.insertRow();
 			td = tr.insertCell();
 			td.innerHTML =  database[i].effect2;
+			td.addEventListener('click', searchValue(database[i].effect2));
 			td = tr.insertCell();
 			td.innerHTML =  database[i].val2;
 			td = tr.insertCell();
@@ -140,6 +143,7 @@ function searchHerbs() {
 			tr = table.insertRow();
 			td = tr.insertCell();
 			td.innerHTML =  database[i].effect3;
+			td.addEventListener('click', searchValue(database[i].effect3));
 			td = tr.insertCell();
 			td.innerHTML =  database[i].val3;
 			td = tr.insertCell();
@@ -148,6 +152,7 @@ function searchHerbs() {
 			tr = table.insertRow();
 			td = tr.insertCell();
 			td.innerHTML =  database[i].effect4;
+			td.addEventListener('click', searchValue(database[i].effect4));
 			td = tr.insertCell();
 			td.innerHTML =  database[i].val4;
 			td = tr.insertCell();
@@ -155,6 +160,13 @@ function searchHerbs() {
 		}
 	}
 	divField.appendChild(table);
+}	
+	
+//Search functionality
+function searchHerbs() {
+		//get herbName from search box
+	var herbName = document.getElementById("herbName").value;
+	searchValue(herbName)
 }
 	
 
