@@ -1,0 +1,374 @@
+[33mcommit 589de9c80d1326a19d77dd93b29d9dcb706a3ac4[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:49:17 2017 -0800
+
+    testing trim
+
+[33mcommit 23d0462be796a441374a687e4342f4dcb3dc9ce6[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:46:04 2017 -0800
+
+    Hopefully all working
+
+[33mcommit 0cf85156f6897cd7809348589a619ef6cce5e0e6[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:43:58 2017 -0800
+
+    with innerHtML
+
+[33mcommit db3e40f3fd55801e0445c61f92150fde411ffd08[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:42:23 2017 -0800
+
+    thingy
+
+[33mcommit ab9c3faeb37042f4ae4a7b86c7dde483b759fe3c[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:41:06 2017 -0800
+
+    attempt 2
+
+[33mcommit 9c5e30e42805147b31c8598c07963e8416025769[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:39:05 2017 -0800
+
+    new strategy
+
+[33mcommit b1fc8c2c5d2dc3a78128af00a668c8347be4500b[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:35:07 2017 -0800
+
+    'nother test
+
+[33mcommit c4e4979d767da174e3af06fa97fd553e778ae7f3[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:33:06 2017 -0800
+
+    syntax error
+
+[33mcommit cd24a8bde88f814cdc25571c29af2778bd972625[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:30:40 2017 -0800
+
+    syntax error
+
+[33mcommit 44fc30ddba779714e779c460ce14af41580013b6[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:29:50 2017 -0800
+
+    fix undefined var
+
+[33mcommit 5c39fb01edbb4f71ee71e90aa679fcc0c526a24d[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:29:00 2017 -0800
+
+    test
+
+[33mcommit e4d231e925254aa5eae4f7be8c89bc1ffb02bd07[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:27:06 2017 -0800
+
+    revert change
+
+[33mcommit 84e089c5c5202b83694457009190f910a44a798e[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:24:04 2017 -0800
+
+    update
+
+[33mcommit 95c3c9170f774d04a4c9a16db0ccb331b82248f7[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:15:56 2017 -0800
+
+    folloing on from test
+
+[33mcommit 3bd9cf589a280fa779d275c3a29b6c775dad5a75[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:14:39 2017 -0800
+
+    Quick Check
+
+[33mcommit 1fc561a2669e5e42c6f7026beb202acca314c824[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:10:54 2017 -0800
+
+    Quick Test
+
+[33mcommit 15b1f728e76f779c338bbc9340aa35d09919dc10[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 21:08:11 2017 -0800
+
+    missed a ;
+
+[33mcommit fb9fea0d661e5d82c9830abbc18cbd7d392bdcdf[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 20:58:56 2017 -0800
+
+    Syntax Error
+
+[33mcommit 59bb1c7f2466a019bd2b2afbdfea87f4a2b632e0[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 20:55:34 2017 -0800
+
+    Update main.js
+
+[33mcommit 69d6c254c198982cdad386b9edf5471bd4271977[m
+Merge: fe04e26 afd44ad
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 20:48:51 2017 -0800
+
+    Merge pull request #3 from JonathanTestUser/Add-Clickable-Table
+    
+    Add clickable table
+
+[33mcommit afd44ad78d68a7d58f21bcc2ef22ca0a86326257[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 20:48:14 2017 -0800
+
+    Make Table Cells Clickable
+
+[33mcommit 02776faa071b31efd60a2152f34f141b91309eda[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 20:45:45 2017 -0800
+
+    Seperated Search click from search button
+
+[33mcommit fe04e26b211d5f6273d52f40227a03d9f0c957e5[m
+Merge: 3c66f40 90eebb8
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 20:37:18 2017 -0800
+
+    Merge pull request #2 from JonathanTestUser/Remove-Case-Sensitivity
+    
+    Removes search case sensitivity
+
+[33mcommit 90eebb87b3f0a09a177a635e8f5890310fd61bc9[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 20:34:49 2017 -0800
+
+    Ma
+
+[33mcommit 3c66f404e5becf4d143ea27328091f14147daae9[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 20:18:06 2017 -0800
+
+    Upload data CSV
+
+[33mcommit e0898c5ac87954fd534d4ce204e1f8b2c4ca6318[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 17:09:14 2017 -0800
+
+    Finally Working!
+
+[33mcommit 467a97abe6d3af455686618502daffed5f394909[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 17:06:48 2017 -0800
+
+    one last change
+
+[33mcommit 71c7473fc2864994475bcb284f296cd86f13aea8[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 17:04:25 2017 -0800
+
+    more debug
+
+[33mcommit 452d0de2d61e814694e1e69ee05172502d6ca50c[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 17:00:57 2017 -0800
+
+    Minor change
+
+[33mcommit e0ee5e1c054c284285641e06897a38023488ebea[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 16:58:03 2017 -0800
+
+    === to ==
+
+[33mcommit e40e3b29e7a6fcdac476553521927f838a671dd5[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 16:56:40 2017 -0800
+
+    discovered error, debugging
+
+[33mcommit f721610f6c7221e46a4e8f75690079bf43a2db17[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 16:54:11 2017 -0800
+
+    console error
+
+[33mcommit 6d5fd7b594c5c9ed89a0f7f602d503e304b87648[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 16:51:24 2017 -0800
+
+    adding a console log
+
+[33mcommit 6d2e80e6898efadfaa34cbddda95b149a38fc3d7[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 16:43:22 2017 -0800
+
+    Cleanup debug text, focus on loop
+
+[33mcommit 108ed326b8cce7c390695ce77782af0bf91e685e[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 16:38:19 2017 -0800
+
+    Yet another bug
+
+[33mcommit 25203257cccbd3a94af5b5e90728e34ce162c025[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 16:31:59 2017 -0800
+
+    Maybe a fix?
+
+[33mcommit 8fe309b9680e3872397a26f56db9b6a87cb6abbf[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 16:26:51 2017 -0800
+
+    still more debugging
+
+[33mcommit 2c451175913064ac873c71d4d9a65522bb5e46e4[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 16:21:16 2017 -0800
+
+    Add more debug text
+
+[33mcommit 4a22c8d7fa483099b6f053f58751c5b8923935e6[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 16:18:00 2017 -0800
+
+    added debug message
+
+[33mcommit 0af9ab712cde96cc9babad409c14f668e97d59b9[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 16:16:05 2017 -0800
+
+    syntax error
+
+[33mcommit e899fbde2233a9e146a165613b2a55d3a4fb2d7b[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 16:13:38 2017 -0800
+
+    Fixing Regexp
+
+[33mcommit 85f1297fb6a95948d5384b526a2de9248a48c8b1[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 16:11:26 2017 -0800
+
+    Previous fix didn't work, added an intermediate step
+
+[33mcommit b53f67fd3893c764ce8299ffb8e1613d8a27b7b3[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 16:05:03 2017 -0800
+
+    Prev fix worked, applying same fix to second bug
+
+[33mcommit 4a58aa2c34c262a664ca69c6a5d168680f55167a[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 16:02:09 2017 -0800
+
+    Attempt 2 to fix split function
+
+[33mcommit 5cc21f5a8df2dd3244bf090aa018ea7239aed03c[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 15:59:03 2017 -0800
+
+    split function wasnt working
+
+[33mcommit 14eb14338a4707f4216cf63d803d9fe9d8dafae9[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 15:55:50 2017 -0800
+
+    Fixing Bugs
+
+[33mcommit f0ea1df58e9d34a3599828e3816407907f818de9[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 15:53:27 2017 -0800
+
+    Search Bar Complete
+
+[33mcommit b74b5c7c6cc3697bb8f62662765057902ff11f85[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 15:12:49 2017 -0800
+
+    Testing a thing
+
+[33mcommit add1112499fa50793bbb4207d1d0bf200c3779ab[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 15:02:57 2017 -0800
+
+    Update main.js
+
+[33mcommit 7116d2c496fcbfa5b823b0780f6c598ff03d7ed0[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 15:01:39 2017 -0800
+
+    Update main.js
+
+[33mcommit e6e80a2ae57692d5440a45a4b2e0da6b1e97515d[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 15:00:00 2017 -0800
+
+    Update main.js
+
+[33mcommit 4dce3c9e8484ed56e0a9b96ee41ea9d3d59f1921[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 14:59:24 2017 -0800
+
+    Update and rename Data.CSV to data.txt
+
+[33mcommit 26b9dc7516d6c6c940372f92e3cddc99e8d4af85[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 14:58:33 2017 -0800
+
+    Update index.html
+
+[33mcommit 452d2ef137161b713ca803bdf290a8d36c1b6858[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 14:57:54 2017 -0800
+
+    Update style.css
+
+[33mcommit 3a873a214f0b6af08c6d2d8ac28ebfc698b91021[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 14:57:24 2017 -0800
+
+    Rename Styles/style.css to styles/style.css
+
+[33mcommit e83477044c12ab6f185ae42186e797e6a8afb68a[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 14:56:07 2017 -0800
+
+    Create style.css
+
+[33mcommit 0d5ef715ec3b0760598a06cd8200a1b8bf2ede61[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 14:54:47 2017 -0800
+
+    Update main.js
+
+[33mcommit 79de5510551527dc29aa3cde418b05bfee0a5aeb[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 14:53:31 2017 -0800
+
+    Update index.html
+
+[33mcommit c5af9d84c951dc5d0ade0540a2f856e00a87dbdf[m
+Merge: 67cc373 f7cdc2c
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Wed Jan 4 14:48:42 2017 -0800
+
+    Merge pull request #1 from JonathanTestUser/Initial-Version
+    
+    Begin engine creation
+
+[33mcommit f7cdc2cbb8f327eba73ad666b3d58e6ad006f8c4[m
+Author: JohnAllen85 <john@johnandpennyallen.com>
+Date:   Sun Jan 1 23:36:45 2017 -0800
+
+    Begin engine creation
+
+[33mcommit 67cc3737f77672ca4e9434dc60713a0b4f011dbe[m
+Author: JonathanTestUser <jonnoxxcv@gmail.com>
+Date:   Sun Jan 1 20:20:18 2017 -0800
+
+    Initial commit
