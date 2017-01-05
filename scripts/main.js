@@ -74,10 +74,10 @@ window.onload = function(){
 }
 	
 
+
 //Search functionality
-function searchHerbs() {
-	//get herbName from search box
-	var herbName = document.getElementById("herbName").value;
+function searchValue(herbName) {
+
 	herbString= herbName.toString();
 	herbString= herbString.trim();
 	
@@ -155,6 +155,13 @@ function searchHerbs() {
 		}
 	}
 	divField.appendChild(table);
+}	
+	
+//Search functionality
+function searchHerbs() {
+		//get herbName from search box
+	var herbName = document.getElementById("herbName").value;
+	searchValue(herbName)
 }
 	
 
