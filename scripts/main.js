@@ -122,10 +122,10 @@ function searchValue(herbName) {
 			td = tr.insertCell();
 			td.innerHTML =  database[i].name;
 			td.setAttribute('rowspan', '4');
-			td.addEventListener('click', searchValue(database[i].name);
+			td.addEventListener('click', searchValue(database[i].name));
 			td = tr.insertCell();
 			td.innerHTML =  database[i].effect1;
-			td.addEventListener('click', searchValue(database[i].effect1);
+			td.addEventListener('click', searchValue(database[i].effect1));
 			td = tr.insertCell();
 			td.innerHTML =  database[i].val1;
 			td = tr.insertCell();
@@ -134,7 +134,7 @@ function searchValue(herbName) {
 			tr = table.insertRow();
 			td = tr.insertCell();
 			td.innerHTML =  database[i].effect2;
-			td.addEventListener('click', searchValue(database[i].effect2);
+			td.addEventListener('click', searchValue(database[i].effect2));
 			td = tr.insertCell();
 			td.innerHTML =  database[i].val2;
 			td = tr.insertCell();
@@ -143,7 +143,8 @@ function searchValue(herbName) {
 			tr = table.insertRow();
 			td = tr.insertCell();
 			td.innerHTML =  database[i].effect3;
-			td.addEventListener('click', searchValue(database[i].effect3);
+
+			td.addEventListener('click', searchValue(database[i].effect3));
 			td = tr.insertCell();
 			td.innerHTML =  database[i].val3;
 			td = tr.insertCell();
@@ -152,7 +153,8 @@ function searchValue(herbName) {
 			tr = table.insertRow();
 			td = tr.insertCell();
 			td.innerHTML =  database[i].effect4;
-			td.addEventListener('click', searchValue(database[i].effect4);
+
+			td.addEventListener('click', searchValue(database[i].effect4));
 			td = tr.insertCell();
 			td.innerHTML =  database[i].val4;
 			td = tr.insertCell();
