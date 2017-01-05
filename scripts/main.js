@@ -78,7 +78,7 @@ window.onload = function(){
 
 //Search functionality
 function searchHerbs() {
-	
+	console.log("1");
 	//get herbName from search box
 	var herbName = document.getElementById("herbName").value;
 	herbName= herbName.trim;
@@ -90,12 +90,14 @@ function searchHerbs() {
 	var divField = document.getElementById('dataReturn');
 	
 	//while there is a first child
+	console.log("2");
 	while(divField.firstChild){
 	//remove first child
     divField.removeChild(divField.firstChild);
- }
+	}
 	
 	//create a table, insert a row of headers.
+	console.log("3");
 	var table = document.createElement("table");
 	var tr = table.insertRow();
 	var th = document.createElement('th');
@@ -116,6 +118,7 @@ function searchHerbs() {
 	th.innerHTML = "Mag";
 	tr.appendChild(th);
 	
+	console.log("4");
 	//loop through the database.
 	var databaseLength = database.length;
 	for (var i= 0; i < databaseLength; i++){
@@ -159,6 +162,7 @@ function searchHerbs() {
 		else alert("fail")
 	}
 	divField.appendChild(table);
+	console.log("5");
 }
 	
 
