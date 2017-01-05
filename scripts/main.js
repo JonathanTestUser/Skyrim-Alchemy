@@ -1,6 +1,6 @@
 
 //want the database in the global scope to be accessable from other functions.
-var database=[]; 
+var database = []; 
 
 //The Herb object with all variables.					
 function Herb(name, effect1, val1, mag1, effect2, val2, mag2, effect3, val3, mag3, effect4, val4, mag4){
@@ -66,13 +66,14 @@ window.onload = function(){
 				if (secondSplit.length === 13){
 					
 					//add to database.
-					database= database.concat([new Herb(secondSplit[0],secondSplit[1],secondSplit[2],secondSplit[3],secondSplit[4],secondSplit[5],secondSplit[6],secondSplit[7],secondSplit[8],secondSplit[9],secondSplit[10],secondSplit[11],secondSplit[12])]);
+					database = database.concat([new Herb(secondSplit[0],secondSplit[1],secondSplit[2],secondSplit[3],secondSplit[4],secondSplit[5],secondSplit[6],secondSplit[7],secondSplit[8],secondSplit[9],secondSplit[10],secondSplit[11],secondSplit[12])]);
 				}
 			}
 		}
 		
     }
     rawFile.send(null);
+	console.log(database[0].name);
 }
 	
 
