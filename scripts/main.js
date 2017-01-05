@@ -119,8 +119,8 @@ function searchHerbs() {
 	//loop through the database.
 	var databaseLength = database.length;
 	for (var i= 0; i < databaseLength; i++){
-		if (regExpHerb.test (database[i].name) || regExpHerb.test(database[i].effect1) || regExpHerb.test(database[i].effect2) || regExpHerb.test(database[i].effect3) || regExpHerb.test(database[i].effect4)){
-			
+		if (regExpHerb.test(database[i].name) || regExpHerb.test(database[i].effect1) || regExpHerb.test(database[i].effect2) || regExpHerb.test(database[i].effect3) || regExpHerb.test(database[i].effect4)){
+			alert ("Pass")
 			tr = table.insertRow();
 			td = tr.insertCell();
 			td.innerHTML =  database[i].name;
@@ -156,6 +156,7 @@ function searchHerbs() {
 			td = tr.insertCell();
 			td.innerHTML =  database[i].mag4;
 		}
+		else alert("fail")
 	}
 	divField.appendChild(table);
 }
