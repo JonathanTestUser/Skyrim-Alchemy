@@ -63,9 +63,7 @@ window.onload = function(){
 				var secondSplit = ingredientString.split(",");
 				var arraylength = secondSplit.length;
 				//check all fields are there...
-				console.log(arraylength.toString());
 				if (secondSplit.length == 13){
-					console.log("test");
 					//add to database.
 					database = database.concat([new Herb(secondSplit[0],secondSplit[1],secondSplit[2],secondSplit[3],secondSplit[4],secondSplit[5],secondSplit[6],secondSplit[7],secondSplit[8],secondSplit[9],secondSplit[10],secondSplit[11],secondSplit[12])]);
 				}
@@ -73,7 +71,6 @@ window.onload = function(){
 		}
     }
     rawFile.send(null);
-	//console.log(database[0].name);
 }
 	
 
@@ -86,7 +83,6 @@ function searchHerbs() {
 	
 	//convert into a regex string
 	var regExpHerb = new RegExp (herbName, i);
-	//console.log(regExpHerb.toString());
 	
 	//Get the Div where data will be shown.
 	var divField = document.getElementById('dataReturn');
@@ -120,11 +116,8 @@ function searchHerbs() {
 	
 	//loop through the database.
 	var databaseLength = database.length;
-	console.log(databaseLength.toString());
 	for (var i= 0; i < databaseLength; i++){
-		console.log("into loop")
 		if (regExpHerb.test(database[i].name) || regExpHerb.test(database[i].effect1) || regExpHerb.test(database[i].effect2) || regExpHerb.test(database[i].effect3) || regExpHerb.test(database[i].effect4)){
-			alert ("Pass")
 			tr = table.insertRow();
 			td = tr.insertCell();
 			td.innerHTML =  database[i].name;
@@ -160,7 +153,6 @@ function searchHerbs() {
 			td = tr.insertCell();
 			td.innerHTML =  database[i].mag4;
 		}
-		else alert("fail")
 	}
 	divField.appendChild(table);
 }
