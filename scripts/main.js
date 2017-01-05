@@ -61,8 +61,9 @@ window.onload = function(){
 				ingredient = ingredient.trim;
 				var ingredientString = ingredient.toString();
 				var secondSplit = ingredientString.split(",");
-				
+				var arraylength = secondSplit.length;
 				//check all fields are there...
+				console.log(arraylength.toString());
 				if (secondSplit.length == 13){
 					console.log("test");
 					//add to database.
@@ -70,7 +71,6 @@ window.onload = function(){
 				}
 			}
 		}
-		
     }
     rawFile.send(null);
 	//console.log(database[0].name);
