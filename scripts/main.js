@@ -55,7 +55,7 @@ window.onload = function(){
 			for (var i = 0; i < max; i++) { 
 			
 				//Get each ingredient as a string of values
-				var ingredientString = firstSplit[i];
+				var ingredientString = firstSplit[i].toString();
 				
 				//split that string by commas, discarding whitespace
 				ingredientString = ingredientString.trim;
