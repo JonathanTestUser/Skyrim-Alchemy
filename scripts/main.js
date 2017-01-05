@@ -64,7 +64,7 @@ window.onload = function(){
 				
 				//check all fields are there...
 				if (secondSplit.length == 13){
-					
+					console.log("test");
 					//add to database.
 					database = database.concat([new Herb(secondSplit[0],secondSplit[1],secondSplit[2],secondSplit[3],secondSplit[4],secondSplit[5],secondSplit[6],secondSplit[7],secondSplit[8],secondSplit[9],secondSplit[10],secondSplit[11],secondSplit[12])]);
 				}
@@ -73,7 +73,7 @@ window.onload = function(){
 		
     }
     rawFile.send(null);
-	console.log(database[0].name);
+	//console.log(database[0].name);
 }
 	
 
